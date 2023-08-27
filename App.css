@@ -1,0 +1,90 @@
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Color de fondo para toda la página */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Color de fondo del contenedor */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera alrededor del contenedor */
+}
+
+/* Estilos para el título principal */
+h1 {
+  text-align: center;
+  color: #007bff; /* Color azul para el título */
+}
+
+/* Estilos para el formulario y la entrada de texto */
+.inputForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la entrada de texto */
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 150%;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #007bff; /* Color azul para los botones */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de agregar */
+.addButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos cuando se pasa el mouse sobre el botón de agregar */
+.addButton:hover {
+  background-color: #0056b3; /* Cambia a un tono más oscuro de azul */
+}
+
+/* Estilos para la lista de tareas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilos para cada tarea en la lista */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc; /* Línea divisoria entre las tareas */
+  background-color: #e6f7ff; /* Color de fondo para cada tarea */
+  border: 1px solid #ccc; /* Borde alrededor de cada tarea */
+  border-radius: 4px;
+}
+
+/* Estilos para el botón de eliminar */
+.deleteButton {
+  background-color: #007bff; /* Color azul para el botón de eliminar */
+  color: #fff;
+}
+
+/* Estilos cuando se pasa el mouse sobre el botón de eliminar */
+.deleteButton:hover {
+  background-color: #0056b3; /* Cambia a un tono más oscuro de azul */
+}
